@@ -16,19 +16,19 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Ruby
+    - name: Setup Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '2.7'
-    
-    - name: Update Rubygems
-      run: gem update --system
+        ruby-version: 3.1
 
-    - name: Build site with Jekyll
+    - name: Install dependencies
       run: |
-        export JEKYLL_VERSION=3.8
-        docker run \
-          -v $(pwd):/srv/jekyll \
-          -v $(pwd)/_site:/srv/jekyll/_site \
-          -e PAGES_REPO_NWO=${{ github.repository }} \
-          jekyll/builder:$JEKYLL_VERSION /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+        gem update --system
+        bundle install
+
+    - name: Build site
+      run: bundle exec jekyll build
+
+    - name: Deploy
+      run: |
+        bundle exec jekyll deploy --token ${{ secrets.GITHUB_TOKEN }}
