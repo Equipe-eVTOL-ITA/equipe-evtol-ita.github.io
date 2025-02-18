@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/conheca_nossos_projetos/</loc>
+<lastmod>2025-02-17T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>/aboutme/</loc>
+</url>
+<url>
+<loc>/drones_indoor/</loc>
+</url>
+<url>
+<loc>/drones_outdoor/</loc>
+</url>
+<url>
+<loc>/evtol-armageddon/</loc>
+</url>
+<url>
+<loc>/helices_toroidais/</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/tags/</loc>
+</url>
+<url>
+<loc>/treinamento_navegacao/</loc>
+</url>
+<url>
+<loc>/treinamento_robotica/</loc>
+</url>
+</urlset>

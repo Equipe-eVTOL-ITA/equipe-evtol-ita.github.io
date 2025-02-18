@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>eVTOL ITA</title>
+    
+    
+    <link></link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    
+    
+      <item>
+        <title>Conheça nossos projetos em 2025</title>
+        <description>
+          Competições de drones e conexão entre universidade e indústria - 
+          A Equipe eVTOL está a todo vapor para 2025, e este ano vamos além das competições! Preparamos uma agenda repleta de desafios, parcerias e inovações para demonstrar a força dos nossos drones e robôs – e queremos que você conheça cada detalhe. Acompanhe abaixo o que está por vir e...
+        </description>
+        <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+        <link>/conheca_nossos_projetos/</link>
+        <guid isPermaLink="true">/conheca_nossos_projetos/</guid>
+      </item>
+    
+  </channel>
+</rss>
