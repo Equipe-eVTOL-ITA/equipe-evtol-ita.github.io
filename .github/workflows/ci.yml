@@ -31,4 +31,4 @@ jobs:
 
     - name: Deploy
       run: |
-        bundle exec jekyll deploy --token ${{ secrets.GITHUB_TOKEN }}
+        bundle exec jekyll deploy
