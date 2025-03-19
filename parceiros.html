@@ -1,0 +1,68 @@
+---
+layout: page_larga
+title: Parceiros
+subtitle: Nossos apoiadores
+cover-img: /assets/img/navigation_bar_header.jpg
+---
+
+<head>
+    <link rel="stylesheet" href="/assets/css/equipes.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Nossos parceiros</h1>
+
+        <br>
+
+        <div class="tabela" id="parceiros.json"></div>
+
+        <script>
+            
+            function geraQuadro(arquivo){
+                fetch(arquivo)
+                    .then(response => response.json())
+                    .then(data => {
+                        const container = document.getElementById(arquivo); // usando o nome do arquivo como id
+                        data.forEach(parca => {
+                            const parca_div = document.createElement("div");
+                            parca_div.classList.add("parca");
+                            
+                            const imagem = document.createElement("img");
+                            imagem.src = parca.foto;
+                            imagem.alt = parca.nome;
+                            imagem.classList.add("img_parceiro");
+                            
+                            const info_div = document.createElement("div");
+                            const nome_parca = document.createElement("h3");
+                            nome_parca.textContent = parca.nome;
+                            const descricao = document.createElement("p");
+                            descricao.textContent = parca.descricao;
+
+                            info_div.appendChild(nome_parca);
+                            info_div.appendChild(descricao);
+
+                            parca_div.appendChild(imagem);
+                            parca_div.appendChild(info_div);
+                            
+                            const a = document.createElement("a");
+                            a.classList.add("sem_sublinhar");
+                            a.href = parca.link;
+                            a.target="_blanck"
+                            a.appendChild(parca_div);
+
+                            container.appendChild(a);
+                        });
+                    })
+            }
+
+            geraQuadro("parceiros.json");
+
+        </script>
+
+    </div>
+
+</body>
+</html>
