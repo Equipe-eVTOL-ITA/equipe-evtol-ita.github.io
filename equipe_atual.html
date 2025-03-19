@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page_larga
 title: Equipe Atual
 subtitle: Nossos membros
 cover-img: /assets/img/bandeira_onibus.jpg
@@ -84,6 +84,8 @@ cover-img: /assets/img/bandeira_onibus.jpg
 
         <h1>Membros da Equipe</h1>
 
+        <br>
+
         <h2>Presidência</h2>
         <div class="tabela" id="presidencia.json"></div>
 
@@ -92,6 +94,8 @@ cover-img: /assets/img/bandeira_onibus.jpg
 
         <h2>Membros</h2>
         <div class="tabela" id="membros.json"></div>
+
+        <img src="/assets/img/posts/diretoria_atual.png" alt="diretoria_atual">
 
         <script>
             
@@ -114,6 +118,7 @@ cover-img: /assets/img/bandeira_onibus.jpg
                             nome_membro.textContent = membro.nome;
                             const funcao_na_equipe = document.createElement("p");
                             funcao_na_equipe.textContent = membro.funcao;
+                            funcao_na_equipe.style.fontWeight = 'bold';
                             const descricao = document.createElement("p");
                             descricao.textContent = membro.descricao;
 
