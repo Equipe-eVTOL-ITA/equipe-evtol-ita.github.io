@@ -1,0 +1,76 @@
+---
+layout: page
+title: Equipe Atual
+subtitle: Nossos membros
+cover-img: /assets/img/bandeira_onibus.jpg
+---
+
+<head>
+    <style>
+        .membro_time {
+            gap: 15px;
+            display: flex;
+            align-items: center;
+        }
+        .rostos {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Membros da Equipe</h1>
+        <br>
+        <div id="membros_container"></div>
+        <!--
+        <div class="membro_time">
+            <img class="rostos" src="/assets/img/wk/logo_arduino.png" alt="Presidente">
+            <div>
+                <h3>Vinicius Ceccon</h3>
+                <p class="funcao_na_equipe">Presidente</p>
+                <p class="descricao">O cara eh brabo</p>
+            </div>
+        </div>
+        -->
+        <script>
+            fetch("membros.json")
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById("membros_container");
+                    data.forEach(membro => {
+                        const membro_div = document.createElement("div");
+                        membro_div.classList.add("membro_time");
+
+                        const imagem = document.createElement("img");
+                        imagem.src = membro.rosto;
+                        imagem.alt = membro.funcao;
+                        imagem.classList.add("rostos");
+                        
+                        const info_div = document.createElement("div");
+                        const nome_membro = document.createElement("h3");
+                        nome_membro.textContent=membro.nome;
+                        const funcao_na_equipe = document.createElement("p");
+                        funcao_na_equipe.textContent=membro.funcao;
+                        const descricao = document.createElement("p");
+                        descricao.textContent= membro.descricao;
+
+                        info_div.appendChild(nome_membro);
+                        info_div.appendChild(funcao_na_equipe);
+                        info_div.appendChild(descricao);
+
+                        membro_div.appendChild(imagem);
+                        membro_div.appendChild(info_div);
+                        
+                        container.appendChild(membro_div);
+                    });
+                })    
+        </script>
+
+    </div>
+
+</body>
+</html>

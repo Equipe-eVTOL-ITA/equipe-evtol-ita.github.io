@@ -1,0 +1,20 @@
+[
+    {
+        "nome": "Vinicius Ceccon",
+        "funcao": "Presidente",
+        "descricao": "O cara eh brabo",
+        "rosto": "/assets/img/wk/logo_arduino.png"
+    },
+    {
+        "nome": "Yago Pikachu",
+        "funcao": "Vice Presidente",
+        "descricao": "Brabo tbm",
+        "rosto": "/assets/img/wk/logo_ele.jpg"
+    },
+    {
+        "nome": "Rafa Pimenta",
+        "funcao": "Diretor de Business ?",
+        "descricao": "Só tem gente braba nesse time",
+        "rosto": "/assets/img/wk/logo_github.png"
+    }
+]

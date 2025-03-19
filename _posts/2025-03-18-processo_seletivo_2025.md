@@ -5,7 +5,7 @@ subtitle: A Equipe eVTOL seleciona mais 30 novos membros para a iniciativa
 cover-img: /assets/img/posts/ps_2025.jpeg
 thumbnail-img: /assets/img/posts/ps_2025.jpeg 
 share-img: /assets/img/posts/ps_2025.jpeg  
-tags: [competição, robótica, drones]
+tags: [processo seletivo]
 ---
 
 Nossa equipe acaba de crescer com a chegada de novos membros selecionados para embarcar nessa jornada rumo aos ares!  
@@ -37,4 +37,4 @@ Não poderíamos nos limitar a isso! Além de tudo isso, pedimos para que discut
 
 Estamos animados para ver todo o empenho e dedicação que trarão para os desafios pela frente!
   
-### Bem vindos!
+### Bem vindos! Agora mãos à obra!
