@@ -40,5 +40,12 @@
         "descricao": "Eu sou o Kaehry (mais conhecido como Tinder) da T29, sou de Curitiba e estou vivendo esse sonho q é cursar o ITA; fazendo o que eu gosto num ambiente excepcional!!!",
         "rosto": "/assets/img/rostos/kaehry.jpeg",
         "linkedin": ""
+    },
+    {
+        "nome": "André do Prado e Assis",
+        "funcao": "Membro",
+        "descricao": "19 anos, aluno do ita, nascido em Salvador e morador de São João da Boa Vista, trigêmeos todos cursando engenharia",
+        "rosto": "/assets/img/rostos/andre.jpg",
+        "linkedin": ""
     }
 ]
