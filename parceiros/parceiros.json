@@ -1,14 +1,12 @@
 [
     {
         "nome": "itaex",
-        "foto": "",
-        "descricao": "",
-        "link": ""
+        "foto": "/assets/img/parceiros/itaex-amarelo.png",
+        "link": "https://itaex.org.br/"
     },
     {
         "nome": "skyrats",
-        "foto": "",
-        "descricao": "",
-        "link": ""
+        "foto": "/assets/img/parceiros/skyrats.svg",
+        "link": "https://skyrats.com.br/"
     }
 ]

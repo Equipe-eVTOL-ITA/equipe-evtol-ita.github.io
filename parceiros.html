@@ -33,19 +33,10 @@ cover-img: /assets/img/navigation_bar_header.jpg
                             const imagem = document.createElement("img");
                             imagem.src = parca.foto;
                             imagem.alt = parca.nome;
+                            imagem.height = 100;
                             imagem.classList.add("img_parceiro");
-                            
-                            const info_div = document.createElement("div");
-                            const nome_parca = document.createElement("h3");
-                            nome_parca.textContent = parca.nome;
-                            const descricao = document.createElement("p");
-                            descricao.textContent = parca.descricao;
-
-                            info_div.appendChild(nome_parca);
-                            info_div.appendChild(descricao);
 
                             parca_div.appendChild(imagem);
-                            parca_div.appendChild(info_div);
                             
                             const a = document.createElement("a");
                             a.classList.add("sem_sublinhar");

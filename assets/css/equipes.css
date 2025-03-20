@@ -16,7 +16,7 @@ h1, h2 {
     margin-top: 30px;
 }
 
-.membro_time, .parca {
+.membro_time {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -28,6 +28,20 @@ h1, h2 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
     height: 600px;
+}
+
+.parca {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    height: 150px;
 }
 
 .img_parceiro {
