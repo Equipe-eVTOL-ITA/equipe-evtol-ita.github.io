@@ -10,6 +10,12 @@ tags: [processo seletivo]
 
 Nossa equipe acaba de crescer com a chegada de novos membros selecionados para embarcar nessa jornada rumo aos ares!  
   
+Depois de uma apresentação bem sucedida no Feirão de Iniciativas, contamos com 70 inscritos dos quais aprovamos 30 candidatos!  
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="/assets/img/processo_seletivo/feirao_evtol.jpeg" alt="Feirão evtol" height="450" style="width: auto;">
+</div>
+
+   
 A seleção foi feita por um processo seletivo no qual o canditato precisava resolver um case com posterior apresentação de suas propostas.  
 Apresentando uma hipotética empresa de eVTOLs, a Decolaris, desafiamos os candidatos a proporem quais seriam os melhores designs de veículo para cada um dos quatro clientes da empresa.  
 Cada cliente pretendia utilizar a aeronave para uma aplicação específica:  

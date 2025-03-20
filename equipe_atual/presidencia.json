@@ -3,14 +3,14 @@
         "nome": "Vinicius Ceccon",
         "funcao": "Presidente",
         "descricao": "O cara eh brabo estou testando isso aqui colocando muito texto para ver como eh que fica la na paginadeafdewaodoc sdcisefj oaifjosdico rjfvio ajrvi cojar",
-        "rosto": "/assets/img/wk/logo_arduino.png",
+        "rosto": "/assets/img/rostos/ceccon.jpeg",
         "linkedin": "https://www.linkedin.com/in/vinicius-ceccon-724855270/"
     },
     {
-        "nome": "Yago Pikachu",
+        "nome": "Yago Ximenes",
         "funcao": "Vice Presidente",
-        "descricao": "Brabo tbm",
-        "rosto": "/assets/img/wk/logo_ele.jpg",
+        "descricao": "Nasci em Fortaleza/CE e cresci em Belém/PA. Tenho grande interesse por tecnologias, principalmente nos ramos aeroespacial e da robótica, além de gostar de desafios.",
+        "rosto": "/assets/img/rostos/ximenes.png",
         "linkedin": "https://www.linkedin.com/in/yago-ximenes/"
     }
 ]

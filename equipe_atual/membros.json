@@ -1,93 +1,16 @@
 [
     {
-        "nome": "Angelo",
+        "nome": "Angelo Marconi Pavan",
         "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
+        "descricao": "Membro da inciativa eVTOL",
+        "rosto": "/assets/img/rostos/pavan.jpeg",
         "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
     },
     {
-        "nome": "Angelo",
+        "nome": "Gabriel Juliatti Costalonga",
         "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
-    },
-    {
-        "nome": "Angelo",
-        "funcao": "Membro",
-        "descricao": "Mero mortal",
-        "rosto": "/assets/img/wk/logo_opencv.png",
+        "descricao": "Conhecido na comunidade iteana como Libras, tenho 22 anos e sou natural de Vila Velha - ES. Com espírito leve e aventureiro, estou sempre disposto a experimentar coisas novas e buscar desenvolver novas habilidades. Nos tempos livres, tomar uma gelada é sempre a melhor opção!",
+        "rosto": "/assets/img/rostos/juliatti.png",
         "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
     }
 ]
