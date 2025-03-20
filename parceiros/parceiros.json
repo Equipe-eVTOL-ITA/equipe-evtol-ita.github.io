@@ -8,5 +8,15 @@
         "nome": "skyrats",
         "foto": "/assets/img/parceiros/skyrats.svg",
         "link": "https://skyrats.com.br/"
+    },
+    {
+        "nome": "flymov",
+        "foto": "/assets/img/parceiros/flymov.jpeg",
+        "link": "https://www.linkedin.com/company/flymov/?original_referer=https%3A%2F%2Fwww%2Egoogle%2Ecom%2F&originalSubdomain=br"
+    },
+    {
+        "nome": "LRA",
+        "foto": "/assets/img/parceiros/logo_lra.png",
+        "link": "https://www.mec.ita.br/laboratorio-de-robotica-aerea-lra-departamento-de-mecatronica/#:~:text=O%20Laborat%C3%B3rio%20de%20Rob%C3%B3tica%20A%C3%A9rea,de%20guiamento%2C%20navega%C3%A7%C3%A3o%20e%20controle."
     }
 ]
