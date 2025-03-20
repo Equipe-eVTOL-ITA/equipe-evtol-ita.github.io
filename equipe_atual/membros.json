@@ -2,7 +2,7 @@
     {
         "nome": "Angelo Marconi Pavan",
         "funcao": "Membro",
-        "descricao": "Membro da inciativa eVTOL",
+        "descricao": "Aluno do primeiro ano de engenharia e que se encontra em um estado de alegria frente ao atraente ignoto da robótica e visão computacional.",
         "rosto": "/assets/img/rostos/pavan.jpeg",
         "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
     },
@@ -11,6 +11,34 @@
         "funcao": "Membro",
         "descricao": "Conhecido na comunidade iteana como Libras, tenho 22 anos e sou natural de Vila Velha - ES. Com espírito leve e aventureiro, estou sempre disposto a experimentar coisas novas e buscar desenvolver novas habilidades. Nos tempos livres, tomar uma gelada é sempre a melhor opção!",
         "rosto": "/assets/img/rostos/juliatti.png",
-        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
+        "linkedin": ""
+    },
+    {
+        "nome": "Diego de Aquino Linhares",
+        "funcao": "Membro",
+        "descricao": "Sou o CLT da 29, apaixonado pela ideia de uma aeronave elétrica.",
+        "rosto": "/assets/img/rostos/linhares.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "João Pedro Andrade de Carvalho",
+        "funcao": "Membro",
+        "descricao": "Entusiasta de aeronáutica, robótica, música e literatura. Um tanto tímido, porém muito receptivo a novas amizades.",
+        "rosto": "/assets/img/rostos/carvalho.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Otávio Alves Batista",
+        "funcao": "Membro",
+        "descricao": "Recifense, amante de café e da engenharia.",
+        "rosto": "/assets/img/rostos/otavio.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Kaehry Alves Marczaokoski",
+        "funcao": "Membro",
+        "descricao": "Eu sou o Kaehry (mais conhecido como Tinder) da T29, sou de Curitiba e estou vivendo esse sonho q é cursar o ITA; fazendo o que eu gosto num ambiente excepcional!!!",
+        "rosto": "/assets/img/rostos/kaehry.jpeg",
+        "linkedin": ""
     }
 ]
