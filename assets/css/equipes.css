@@ -44,10 +44,6 @@ h1, h2 {
     height: 150px;
 }
 
-.img_parceiro {
-    
-}
-
 .membro_time:hover {
     transform: scale(1.05);
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);

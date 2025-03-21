@@ -17,19 +17,23 @@ cover-img: /assets/img/posts/cbr_2023.jpg
 
         <br>
 
-        <h2>Diretoria 2024</h2>
-        <div class="tabela" id="diretoria2024.json"></div>
-
-        <h2>Diretoria 2023</h2>
-        <div class="tabela" id="diretoria2023.json"></div>
+        <div class="tabela_mor" id="diretorias"></div>
 
         <script>
             
-            function geraQuadro(arquivo){
-                fetch(arquivo)
+            // problema a ser resolvido: cada hora essa merda gera as divs em uma ordem aleatoria
+
+            function geraQuadro(ano){
+                fetch("diretoria"+ano+".json")
                     .then(response => response.json())
                     .then(data => {
-                        const container = document.getElementById(arquivo); // usando o nome do arquivo como id
+                        const container = document.getElementById("diretorias");
+                        h2 = document.createElement("h2");
+                        h2.textContent = "Diretoria "+ano;
+                        container.appendChild(h2);
+                        const subcontainer = document.createElement("div");
+                        subcontainer.classList.add("tabela");
+                        container.appendChild(subcontainer);
                         data.forEach(membro => {
                             const membro_div = document.createElement("div");
                             membro_div.classList.add("membro_time");
@@ -61,13 +65,13 @@ cover-img: /assets/img/posts/cbr_2023.jpg
                             a.target="_blanck"
                             a.appendChild(membro_div);
 
-                            container.appendChild(a);
+                            subcontainer.appendChild(a);
                         });
                     })
             }
 
-            geraQuadro("diretoria2024.json");
-            geraQuadro("diretoria2023.json");
+            geraQuadro(2021);
+            geraQuadro(2020);
 
         </script>
 

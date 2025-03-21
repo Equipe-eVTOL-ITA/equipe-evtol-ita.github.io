@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "Anna Karenina",
+        "funcao": "Presidente",
+        "descricao": "Engenheira aeronáutica na área de performance da EMBRAER - projeto EVE.",
+        "rosto": "/assets/img/rostos/karenina.jpeg",
+        "linkedin": "https://www.linkedin.com/in/anna-de-camara/"
+    },
+    {
+        "nome": "Pedro Puglia",
+        "funcao": "Gerente de Drones",
+        "descricao": "Um dos caras fodas que passaram pela equipe",
+        "rosto": "/assets/img/wk/logo_ele.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Matheus Lima",
+        "funcao": "Gerente de Voo Horizontal",
+        "descricao": "Aeronautics Mechanical Engineer",
+        "rosto": "/assets/img/rostos/matheus.jpeg",
+        "linkedin": "https://www.linkedin.com/in/matheus-lima-dos-santos-531357146/?originalSubdomain=br"
+    },
+    {
+        "nome": "Rafael Modesto",
+        "funcao": "Diretor de Business",
+        "descricao": "Aeronautical Engineer | MSc Candidate in Space Sciences and Technologies | ITA",
+        "rosto": "/assets/img/rostos/modesto.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rafael-modesto/?originalSubdomain=br"
+    }
+]

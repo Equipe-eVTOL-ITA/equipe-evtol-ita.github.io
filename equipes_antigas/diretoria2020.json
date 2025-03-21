@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Gustavo Novakoski Schuch Ortiz",
+        "funcao": "Presidente",
+        "descricao": "Apaixonado por criar estruturas de dados funcionais e escaláveis e por transformar dados financeiros em informações accionáveis e apresentá-las de forma convincente. Ciclista amador apaixonado por explorar a natureza.",
+        "rosto": "/assets/img/rostos/ortiz.jpeg",
+        "linkedin": "https://www.linkedin.com/in/gustavo-nsortiz/?locale=pt_BR"
+    },
+    {
+        "nome": "Gabriel Barbosa",
+        "funcao": "Diretor de Drones",
+        "descricao": "Mais um cara brabo que passou pela equipe",
+        "rosto": "/assets/img/rostos/",
+        "linkedin": ""
+    },
+    {
+        "nome": "Eu",
+        "funcao": "Diretor de Voo Horizontal",
+        "descricao": "Mais um cara brabo que passou pela equipe",
+        "rosto": "/assets/img/rostos/",
+        "linkedin": ""
+    }
+]
