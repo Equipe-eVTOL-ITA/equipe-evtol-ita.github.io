@@ -82,5 +82,19 @@
         "descricao": "Tenho 21 anos e sou do interior de Minas. Fiz 4 anos de cursinho e agora faço parte da T29.",
         "rosto": "/assets/img/rostos/vitor.png",
         "linkedin": ""
+    },
+    {
+        "nome": "Kaíque Jun Inafuku",
+        "funcao": "Membro",
+        "descricao": "Tenho 20 anos, nasci em São José dos Campos mas passei boa parte da minha vida em Caraguatatuba. Meu hobby é a música (trombone) e quero usar minha paixão por exatas pra melhorar as condições de vida para todos.",
+        "rosto": "/assets/img/rostos/jun.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Gabriel Rocha Chaves",
+        "funcao": "Membro",
+        "descricao": "Aluno de engenharia com vocação e gosto para eletrônica.",
+        "rosto": "/assets/img/rostos/chaves.jpeg",
+        "linkedin": ""
     }
 ]

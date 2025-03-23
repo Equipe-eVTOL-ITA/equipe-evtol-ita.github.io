@@ -7,11 +7,11 @@
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
     },
     {
-        "nome": "Diogo",
+        "nome": "Diogo de Paula",
         "funcao": "Diretor de Navegação",
-        "descricao": "Só tem gente braba nesse time",
-        "rosto": "/assets/img/wk/logo_github.png",
-        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+        "descricao": "Busco aprender e me dedicar no trabalho da melhor maneira que conseguir.",
+        "rosto": "/assets/img/rostos/diogo.png",
+        "linkedin": "https://www.linkedin.com/in/diogo-de-paula-t28/?originalSubdomain=br"
     },
     {
         "nome": "Wallace",
@@ -40,6 +40,12 @@
         "descricao": "Só tem gente braba nesse time",
         "rosto": "/assets/img/wk/logo_github.png",
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+    },
+    {
+        "nome": "Wallace de Oliveira Pereira",
+        "funcao": "Membro",
+        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
+        "rosto": "/assets/img/rostos/wallace.png",
+        "linkedin": ""
     }
-    
 ]
