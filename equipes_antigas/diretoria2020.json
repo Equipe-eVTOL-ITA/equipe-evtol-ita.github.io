@@ -14,10 +14,10 @@
         "linkedin": ""
     },
     {
-        "nome": "Eu",
-        "funcao": "Diretor de Voo Horizontal",
-        "descricao": "Mais um cara brabo que passou pela equipe",
-        "rosto": "/assets/img/rostos/",
-        "linkedin": ""
+        "nome": "Anna Karenina",
+        "funcao": "Diretora de Voo Horizontal",
+        "descricao": "Engenheira aeronáutica na área de performance da EMBRAER - projeto EVE.",
+        "rosto": "/assets/img/rostos/karenina.jpeg",
+        "linkedin": "https://www.linkedin.com/in/anna-de-camara/"
     }
 ]
