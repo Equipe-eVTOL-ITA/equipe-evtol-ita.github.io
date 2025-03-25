@@ -96,5 +96,26 @@
         "descricao": "Aluno de engenharia com vocação e gosto para eletrônica.",
         "rosto": "/assets/img/rostos/chaves.jpeg",
         "linkedin": ""
+    },
+    {
+        "nome": "Wallace de Oliveira Pereira",
+        "funcao": "Membro",
+        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
+        "rosto": "/assets/img/rostos/wallace.png",
+        "linkedin": "https://www.linkedin.com/in/wallace-pereira-4230ab249/"
+    },
+    {
+        "nome": "Ezequiel Honomann",
+        "funcao": "Membro",
+        "descricao": "Quase sempre gostei de coisas que voam, sou vibrão do ramo aeroespacial e pretendo atuar no desenvolvimento dessa área.",
+        "rosto": "/assets/img/rostos/ezequiel.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Clóvis Tabor de Aguiar",
+        "funcao": "Membro",
+        "descricao": "Sou vibrão da arte, da literatura e da gastronomia, curto animes e amo cantar.",
+        "rosto": "/assets/img/rostos/clovis.png",
+        "linkedin": "https://www.linkedin.com/in/clovis-tabor-de-aguiar-122057358/"
     }
 ]

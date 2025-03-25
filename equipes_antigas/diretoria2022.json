@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Pedro Puglia",
+        "funcao": "Presidente",
+        "descricao": "Um dos caras fodas que passaram pela equipe",
+        "rosto": "/assets/img/rostos/puglia.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Moisés Moreira",
+        "funcao": "Gerente de Drones",
+        "descricao": "Brabo tbm",
+        "rosto": "/assets/img/wk/logo_ele.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Coca",
+        "funcao": "Gerente de Voo Horizontal",
+        "descricao": "Brabo tbm",
+        "rosto": "/assets/img/rostos/coca.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Luke",
+        "funcao": "Gerente de Voo Horizontal",
+        "descricao": "Brabo tbm",
+        "rosto": "/assets/img/wk/logo_ele.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Rafael Modesto",
+        "funcao": "Diretor de Business",
+        "descricao": "Aeronautical Engineer | MSc Candidate in Space Sciences and Technologies | ITA",
+        "rosto": "/assets/img/rostos/modesto.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rafael-modesto/?originalSubdomain=br"
+    }
+
+]

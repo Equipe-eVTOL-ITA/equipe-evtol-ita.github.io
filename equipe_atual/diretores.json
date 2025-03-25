@@ -14,13 +14,6 @@
         "linkedin": "https://www.linkedin.com/in/diogo-de-paula-t28/?originalSubdomain=br"
     },
     {
-        "nome": "Wallace",
-        "funcao": "Diretor da Robótica",
-        "descricao": "Só tem gente braba nesse time",
-        "rosto": "/assets/img/wk/logo_github.png",
-        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
-    },
-    {
         "nome": "Leonardo",
         "funcao": "Diretor da Mecânica",
         "descricao": "Só tem gente braba nesse time",
@@ -40,12 +33,5 @@
         "descricao": "Só tem gente braba nesse time",
         "rosto": "/assets/img/wk/logo_github.png",
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
-    },
-    {
-        "nome": "Wallace de Oliveira Pereira",
-        "funcao": "Membro",
-        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
-        "rosto": "/assets/img/rostos/wallace.png",
-        "linkedin": ""
     }
 ]

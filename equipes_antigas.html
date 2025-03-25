@@ -21,57 +21,75 @@ cover-img: /assets/img/posts/cbr_2023.jpg
 
         <script>
             
-            // problema a ser resolvido: cada hora essa merda gera as divs em uma ordem aleatoria
+            // por algum motivo obscuro, ainda nem sempre fica ordenado
 
-            function geraQuadro(ano){
-                fetch("diretoria"+ano+".json")
-                    .then(response => response.json())
-                    .then(data => {
-                        const container = document.getElementById("diretorias");
-                        h2 = document.createElement("h2");
-                        h2.textContent = "Diretoria "+ano;
-                        container.appendChild(h2);
-                        const subcontainer = document.createElement("div");
-                        subcontainer.classList.add("tabela");
-                        container.appendChild(subcontainer);
-                        data.forEach(membro => {
-                            const membro_div = document.createElement("div");
-                            membro_div.classList.add("membro_time");
+            function geraQuadroOrdenado(arrayDeAnos){
+                const promises = arrayDeAnos.map(ano => {
+                    return fetch("diretoria"+ano+".json") // pega o arquivo da diretoria correspondente
+                    .then(r => {
+                        if(!r.ok)
+                            console.log("Erro ao buscar diretoria "+ano);
+                        else
+                            return r.json()
+                    }) // transforma o arquivo em um objeto json javascript
+                    .then(data => ({ano, data})) // retorna um objeto com o ano e os dados da diretoria (em formato json)
+                });
+                // ou seja, vou ter um array de promises com objetos {ano, data}
 
-                            const imagem = document.createElement("img");
-                            imagem.src = membro.rosto;
-                            imagem.alt = membro.funcao;
-                            imagem.classList.add("rostos");
-                            
-                            const info_div = document.createElement("div");
-                            const nome_membro = document.createElement("h3");
-                            nome_membro.textContent = membro.nome;
-                            const funcao_na_equipe = document.createElement("p");
-                            funcao_na_equipe.textContent = membro.funcao;
-                            funcao_na_equipe.style.fontWeight = 'bold';
-                            const descricao = document.createElement("p");
-                            descricao.textContent = membro.descricao;
+                
+                Promise.all(promises) // vai rodando uma por uma, e quando todas terminarem, continua.
+                .then(resultados =>{
+                    const container = document.getElementById("diretorias");
+                    resultados.sort((a,b) => b.ano - a.ano);
+                    resultados.forEach((p) => geraQuadro(p.ano, p.data, container));
+                });
 
-                            info_div.appendChild(nome_membro);
-                            info_div.appendChild(funcao_na_equipe);
-                            info_div.appendChild(descricao);
-
-                            membro_div.appendChild(imagem);
-                            membro_div.appendChild(info_div);
-                            
-                            const a = document.createElement("a");
-                            a.classList.add("sem_sublinhar");
-                            a.href = membro.linkedin;
-                            a.target="_blanck"
-                            a.appendChild(membro_div);
-
-                            subcontainer.appendChild(a);
-                        });
-                    })
             }
 
-            geraQuadro(2021);
-            geraQuadro(2020);
+            function geraQuadro(ano, data, container){
+                console.log(ano);
+                h2 = document.createElement("h2");
+                h2.textContent = "Diretoria "+ano;
+                container.appendChild(h2);
+                const subcontainer = document.createElement("div");
+                subcontainer.classList.add("tabela");
+                container.appendChild(subcontainer);
+                data.forEach(membro => {
+                    const membro_div = document.createElement("div");
+                    membro_div.classList.add("membro_time");
+
+                    const imagem = document.createElement("img");
+                    imagem.src = membro.rosto;
+                    imagem.alt = membro.funcao;
+                    imagem.classList.add("rostos");
+                    
+                    const info_div = document.createElement("div");
+                    const nome_membro = document.createElement("h3");
+                    nome_membro.textContent = membro.nome;
+                    const funcao_na_equipe = document.createElement("p");
+                    funcao_na_equipe.textContent = membro.funcao;
+                    funcao_na_equipe.style.fontWeight = 'bold';
+                    const descricao = document.createElement("p");
+                    descricao.textContent = membro.descricao;
+
+                    info_div.appendChild(nome_membro);
+                    info_div.appendChild(funcao_na_equipe);
+                    info_div.appendChild(descricao);
+
+                    membro_div.appendChild(imagem);
+                    membro_div.appendChild(info_div);
+                    
+                    const a = document.createElement("a");
+                    a.classList.add("sem_sublinhar");
+                    a.href = membro.linkedin;
+                    a.target="_blanck"
+                    a.appendChild(membro_div);
+
+                    subcontainer.appendChild(a);
+                })
+            }
+
+            geraQuadroOrdenado([2020, 2021, 2022, 2019]);
 
         </script>
 

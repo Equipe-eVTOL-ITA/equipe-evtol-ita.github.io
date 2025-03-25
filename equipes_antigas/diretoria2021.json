@@ -3,14 +3,14 @@
         "nome": "Anna Karenina",
         "funcao": "Presidente",
         "descricao": "Engenheira aeronáutica na área de performance da EMBRAER - projeto EVE.",
-        "rosto": "/assets/img/rostos/karenina.jpeg",
+        "rosto": "/assets/img/rostos/karenina2.jpeg",
         "linkedin": "https://www.linkedin.com/in/anna-de-camara/"
     },
     {
         "nome": "Pedro Puglia",
         "funcao": "Gerente de Drones",
         "descricao": "Um dos caras fodas que passaram pela equipe",
-        "rosto": "/assets/img/wk/logo_ele.jpg",
+        "rosto": "/assets/img/rostos/puglia.jpeg",
         "linkedin": ""
     },
     {

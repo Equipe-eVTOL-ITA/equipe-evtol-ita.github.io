@@ -8,7 +8,7 @@
     },
     {
         "nome": "Gabriel Barbosa",
-        "funcao": "Diretor de Drones",
+        "funcao": "Diretor de Drones e de Business",
         "descricao": "Mais um cara brabo que passou pela equipe",
         "rosto": "/assets/img/rostos/",
         "linkedin": ""
@@ -17,7 +17,7 @@
         "nome": "Anna Karenina",
         "funcao": "Diretora de Voo Horizontal",
         "descricao": "Engenheira aeronáutica na área de performance da EMBRAER - projeto EVE.",
-        "rosto": "/assets/img/rostos/karenina.jpeg",
+        "rosto": "/assets/img/rostos/karenina2.jpeg",
         "linkedin": "https://www.linkedin.com/in/anna-de-camara/"
     }
 ]

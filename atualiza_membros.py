@@ -16,7 +16,8 @@ def salvar_json(nome_arquivo, dados):
 
 # Função principal para adicionar novas informações de um membro
 def adicionar_informacoes(nome_arquivo):
-    dados = carregar_json(nome_arquivo)
+    arquivo = "./equipe_atual/{}".format(nome_arquivo)
+    dados = carregar_json(arquivo)
 
     # Obtendo informações via input
     nome = input("Digite o nome do novo membro: ")
@@ -30,7 +31,7 @@ def adicionar_informacoes(nome_arquivo):
         "nome": nome,
         "funcao": funcao,
         "descricao": descricao,
-        "rosto": rosto,
+        "rosto": "/assets/img/rostos/{}".format(rosto),
         "linkedin": linkedin
     }
 
@@ -38,7 +39,7 @@ def adicionar_informacoes(nome_arquivo):
     dados.append(novo_membro)
 
     # Salvando as atualizações no arquivo JSON
-    salvar_json(nome_arquivo, dados)
+    salvar_json(arquivo, dados)
 
     print("Informações do novo membro adicionadas com sucesso!")
 
