@@ -27,7 +27,9 @@ navbar-links:
   Equipe:
     - Membros atuais: "equipe_atual"
     - Anos anteriores: "equipes_antigas"
-  Parceiros: "parceiros"
+  Parceiros:
+    - Sponsorship: "sponsorship"
+    - Nossos parceiros: "parceiros"
   Sobre Nós: "aboutme"
 
   
