@@ -34,16 +34,22 @@ tags: [jornal eVTOL, drones, 2025]
         height: auto; /* Mantém a proporção da imagem */
     }
     .imagem_lado_a_lado {
-        display: flex; /* Define um layout flexível para colocar os itens lado a lado */
+        display: flex; /* Coloca as imagens lado a lado */
         justify-content: center; /* Centraliza as imagens horizontalmente */
+        align-items: center; /* Alinha as imagens pela altura */
         gap: 20px; /* Espaçamento entre as imagens */
-        margin-top: 20px; /* Espaçamento acima do contêiner */
     }
 
     .imagem_lado_a_lado img {
-        max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho do contêiner */
-        height: auto; /* Mantém a proporção das imagens */
+        height: 400px; /* Define a mesma altura para ambas as imagens */
+        object-fit: cover; /* Garante que as imagens sejam cortadas proporcionalmente, sem distorção */
         border-radius: 5px; /* (Opcional) Adiciona bordas arredondadas às imagens */
+    }
+    .conjunto_alinhado {
+        display: flex; /* Define um layout flexível */
+        flex-direction: column; /* Organiza os itens em uma coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+        gap: 20px; /* Espaçamento entre os elementos */
     }
 </style>
 
@@ -68,10 +74,13 @@ O primeiro treinamento foi o de hardware, feito com uma dinâmica que combinava 
         <p>
             Durante o treinamento, foi apresentada a estrutura geral do drone - frame, hélices, motores brushless, ESCs, placas de distribuição, etc.
         </p>
-        <p>Qual é a função da Raspberry PI? E da PixHawk?</p>
-        <p>O que são sensores inerciais? Para que servem as câmeras?</p>
-        <p>O que é odometria e o que é sensor fusion?</p>
+        <ul>
+            <li>Qual é a função da Raspberry PI? E da PixHawk?</li>
+            <li>O que são sensores inerciais? Para que servem as câmeras?</li>
+            <li>O que é odometria e o que é sensor fusion?</li>
+        </ul>
         <h4 align="center">Tudo isso foi disutido nessa parte do treinamento!</h4>
+        <br>
         <div class="imagem_centrada">
             <img src="./assets/img/mexendo_nos_drones.png" alt="Novos membros mexendo nos drones.">
         </div>
@@ -84,12 +93,9 @@ O primeiro treinamento foi o de hardware, feito com uma dinâmica que combinava 
 Durante o treinamento de software, os ~~bixos~~ novos membros tiveram contato com a simulação do drone.
 Foram abordados:
 
-<div class="imagem_centrada">
-    <img src="./assets/img/novos_membros_computador.png" alt="Novos membros trabalhando no computador">
-</div>
-
-<div class="imagem_centrada">
-    <img src="./assets/img/participantes_treinamento.png" alt="Foto de todos os participantes do treinamento">
+<div class="imagem_lado_a_lado">
+    <img src="./assets/img/presidente_explicando.png" alt="Presidente explicando software">
+    <img src="./assets/img/todos_no_treinamento_de_software.jpeg" alt="Foto de todos os participantes do treinamento">
 </div>
 <br>
 
@@ -97,13 +103,21 @@ Foram abordados:
 
 Nossa equipe realizou uma visita à skyrats, equipe de drones da USP. Essa interação fortaleceu nossa rede de colaboração estreitando laços entre os que virão a manter a indústria de drones do Brasil.
 
+<div class="conjunto_alinhado">
+    <div class="imagem_centrada">
+        <img src="./assets/img/evtolITA_com_skyrats.jpeg" alt="Visita à equipe Skyrats" width="820">
+    </div>
+    <div class="imagem_lado_a_lado">
+        <img src="./assets/img/zuffada.jpeg" alt="Imagem 1 da visita à Skyrats" width="400">
+        <img src="./assets/img/lab_skyrats.jpeg" alt="Imagem 2 da visita à Skyrats" width="400">
+    </div>
+</div>
+<br>
 <div class="imagem_centrada">
-    <img src="./assets/img/evtolITA_com_skyrats.jpeg" alt="Visita à equipe Skyrats" width="800">
-</div>
-<div class="imagem_lado_a_lado">
-    <img src="./assets/img/zuffada.jpeg" alt="Imagem 1 da visita à Skyrats" width="400">
-    <img src="./assets/img/lab_skyrats.jpeg" alt="Imagem 2 da visita à Skyrats" width="400">
-</div>
+        <video controls width="800" width="600">
+            <source src="./assets/videos/theoffice_visita_skyrats.mp4" type="video/mp4">
+        </video>
+    </div>
 <br>
 <h3 style="text-align: center;">ZIPA DRONEZADA!!</h3>
 <div class="imagem_lado_a_lado">
@@ -113,11 +127,6 @@ Nossa equipe realizou uma visita à skyrats, equipe de drones da USP. Essa inter
 <br>
 
 <h2 style="text-align: center;">Montagem do Drone</h2>
-
-
-<div class="imagem_centrada">
-    <img src="./assets/img/montagem_drone.png" alt="Drone em montagem">
-</div>
 
 <div class="mexendo_drone">
     <div class="imagem_centrada">
