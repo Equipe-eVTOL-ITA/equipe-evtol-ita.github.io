@@ -131,7 +131,7 @@ Nossa equipe realizou uma visita à skyrats, equipe de drones da USP. Essa inter
 <div class="mexendo_drone">
     <div class="imagem_centrada">
         <video controls width="800" width="250">
-            <source src="./assets/videos/drone_rapunzel.mp4" type="video/mp4">
+            <source src="./assets/videos/etapas_da_montagem_do_drone.mp4" type="video/mp4">
         </video>
     </div>
     <div>
