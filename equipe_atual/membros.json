@@ -117,5 +117,33 @@
         "descricao": "Sou vibrão da arte, da literatura e da gastronomia, curto animes e amo cantar.",
         "rosto": "/assets/img/rostos/clovis.png",
         "linkedin": "https://www.linkedin.com/in/clovis-tabor-de-aguiar-122057358/"
+    },
+    {
+        "nome": "Luis Gustavo Gomes Maia",
+        "funcao": "Membro",
+        "descricao": "Membro da divisão de Navegação, estou trabalhando na evtol com criação de conjunto de dados sintético para treinamento de CNNs para detecção de alvos.",
+        "rosto": "/assets/img/rostos/rivaldo.jpeg",
+        "linkedin": "http://www.linkedin.com/in/luisggmaia"
+    },
+    {
+        "nome": "Miqueias Oliveira",
+        "funcao": "Membro",
+        "descricao": "Cearense vibrão de aviação e tecnologia.",
+        "rosto": "/assets/img/rostos/miqueias.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Henrique Temponi Leite Cardoso",
+        "funcao": "Membro",
+        "descricao": "Sou mineiro e gosto de drones!",
+        "rosto": "/assets/img/rostos/temponi.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Hugo Horácio Mota Pereira",
+        "funcao": "Membro",
+        "descricao": "Natural de Aracaju, Sergipe. 20 anos.",
+        "rosto": "/assets/img/rostos/hugougo.png",
+        "linkedin": ""
     }
 ]

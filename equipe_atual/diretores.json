@@ -2,7 +2,7 @@
     {
         "nome": "Rafael Pimenta",
         "funcao": "Gerente de Business",
-        "descricao": "Só tem gente braba nesse time",
+        "descricao": "É a Dronezada, não tem jeito!",
         "rosto": "/assets/img/rostos/pimenta.jpg",
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
     },
@@ -16,22 +16,22 @@
     {
         "nome": "Leonardo",
         "funcao": "Diretor da Mecânica",
-        "descricao": "Só tem gente braba nesse time",
-        "rosto": "/assets/img/wk/logo_github.png",
+        "descricao": "Sempre procuro adiquirir maus conhecimento e me divertir no processo.",
+        "rosto": "/assets/img/rostos/leonardo.jpeg",
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
     },
     {
         "nome": "Rogério",
         "funcao": "Supervisor de Hardware",
-        "descricao": "Só tem gente braba nesse time",
-        "rosto": "/assets/img/wk/logo_github.png",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/rogerio.jpg",
         "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
     },
     {
         "nome": "Lucas",
         "funcao": "Diretor da Eletrônica",
-        "descricao": "Só tem gente braba nesse time",
-        "rosto": "/assets/img/wk/logo_github.png",
-        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/pimentel.jpg",
+        "linkedin": "https://www.linkedin.com/in/lucas-pimentel-araujo/?locale=en_US"
     }
 ]
