@@ -136,8 +136,8 @@ Nossa equipe realizou uma visita à skyrats, equipe de drones da USP. Essa inter
     </div>
     <div>
         <p>Nesta etapa, realizamos a montagem de um dos drones, seguindo um planejamento detalhado para garantir a melhor performance e estabilidade.</p>
-        <div class="imagem_centrada">
-            <img src="./assets/img/foto_cad" alt="Novos membros mexendo nos drones." width="500">
+        <div class="imagem_centrada" >
+            <img src="./assets/img/montagem_do_drone.jpeg" alt="Montagem do drone." width="600">
         </div>
     </div>
 </div>
