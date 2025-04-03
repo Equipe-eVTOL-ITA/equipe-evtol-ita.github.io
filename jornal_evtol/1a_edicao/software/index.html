@@ -9,13 +9,13 @@
 
   
 
-  <title>Equipe Atual</title>
+  <title>Jornal eVTOL - Software</title>
 
   
   <meta name="author" content="Equipe eVTOL ITA">
   
 
-  <meta name="description" content="Nossos membros">
+  <meta name="description" content="Notícias sobre nosso progresso">
 
   
 
@@ -76,17 +76,17 @@
 
   
   <meta property="og:site_name" content="eVTOL ITA">
-  <meta property="og:title" content="Equipe Atual">
-  <meta property="og:description" content="Nossos membros">
+  <meta property="og:title" content="Jornal eVTOL - Software">
+  <meta property="og:description" content="Notícias sobre nosso progresso">
 
   
-  <meta property="og:image" content="/assets/img/bandeira_onibus.jpg">
+  <meta property="og:image" content="/assets/img/posts/cbr_2023.jpg">
   
 
   
   <meta property="og:type" content="website">
-  <meta property="og:url" content="/equipe_atual/">
-  <link rel="canonical" href="/equipe_atual/">
+  <meta property="og:url" content="/jornal_evtol/1a_edicao/software/">
+  <link rel="canonical" href="/jornal_evtol/1a_edicao/software/">
   
 
   
@@ -95,11 +95,11 @@
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  <meta property="twitter:title" content="Equipe Atual">
-  <meta property="twitter:description" content="Nossos membros">
+  <meta property="twitter:title" content="Jornal eVTOL - Software">
+  <meta property="twitter:description" content="Notícias sobre nosso progresso">
 
   
-  <meta name="twitter:image" content="/assets/img/bandeira_onibus.jpg">
+  <meta name="twitter:image" content="/assets/img/posts/cbr_2023.jpg">
   
 
   
@@ -364,7 +364,7 @@
     
     
       
-      data-img-src-1="/assets/img/bandeira_onibus.jpg"
+      data-img-src-1="/assets/img/posts/cbr_2023.jpg"
     
     
     
@@ -377,15 +377,18 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Equipe Atual</h1>
+        <div class="post-heading">
+          <h1>Jornal eVTOL - Software</h1>
           
             
-              <hr class="small">
-              <span class="page-subheading">Nossos membros</span>
+              <h2 class="post-subheading">Notícias sobre nosso progresso</h2>
             
           
 
+          
+            <span class="post-meta">Postado em </span>
+            
+            
           
         </div>
       </div>
@@ -398,15 +401,18 @@
   <div class="container-md">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-        <div class="page-heading">
-          <h1>Equipe Atual</h1>
+        <div class="post-heading">
+          <h1>Jornal eVTOL - Software</h1>
           
             
-              <hr class="small">
-              <span class="page-subheading">Nossos membros</span>
+              <h2 class="post-subheading">Notícias sobre nosso progresso</h2>
             
           
 
+          
+            <span class="post-meta">Postado em </span>
+            
+            
           
         </div>
       </div>
@@ -419,91 +425,65 @@
 
 
 
-<!--
-<div class=" container-md " role="main">
--->
-<div class="container-fluid" role="main">
+<div class=" container-md ">
   <div class="row">
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
       
 
-      <head>
-    <link rel="stylesheet" href="/assets/css/equipes.css">
-</head>
+      
 
-<body>
+      <article role="main" class="blog-post">
+        <h1>Treinamento de software</h1>
+<div>
+    <p>
+        Não só de hardware vive o bixo. Nessa aula, foi ministrado o conhecimento para minimamente compreender os bastidores de como pensa o    drone. 
+                [Foto da final da aula]
+        Lá foram ministrados conceitos como:
+        <li>Robot Operating System (ROS)</li>
+        <li>PX4-autopilot</li>
+        <li>Agente DDS</li>
+        <li>Machine Learning</li>
+        <li>Visão computacional</li>
+    </p>
+    <h2>Dataset para o aprendizado de máquina</h2>
+    <p>
+        Talvez, uma das técnicas mais interessantes utilizadas pela equipe eVTOL ITA seja o método pelo qual nós obtemos nossos conjuntos de dados para treinar a inteligência artificial que enxerga os alvos. Nós precisamos desse algoritmo pois, na etapa classificatória para a Robocup, precisamos que o drone saiba reconhecer visualmente vários alvos espalhados pela arena e ele aprende a faze-lo através do processamento de milhares de imagens para reconhecimento de padrões. Agora surge um desafio: como obter milhares de imagens do alvo? <span style="text-decoration: line-through;">Mandamos os membros tirar?</span> Não, nós desenvolvemos um mundo simulado em 3D, com os alvos identicos aos reais, e automatizamos um script que tira fotos de vários ângulos diferentes, com iluminações e fundos variados, assim possibilitando uma IA bem treinada
+        [foto do mundo em 3d]
+    </p>
+    
+</div>
 
-    <div class="container">
+      </article>
 
-        <h1>Membros da Equipe</h1>
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#jornal eVTOL">jornal eVTOL</a>
+          
+            <a href="/tags#drones">drones</a>
+          
+            <a href="/tags#Software">Software</a>
+          
+        </div>
+      
 
-        <br>
+      
 
-        <h2>Presidência</h2>
-        <div class="tabela" id="presidencia.json"></div>
+      
+        <!-- Check if any share-links are active -->
 
-        <h2>Diretores</h2>
-        <div class="tabela" id="diretores.json"></div>
 
-        <h2>Membros</h2>
-        <div class="tabela" id="membros.json"></div>
 
-        <script>
-            
-            function geraQuadro(arquivo){
-                fetch(arquivo)
-                    .then(response => response.json())
-                    .then(data => {
-                        const container = document.getElementById(arquivo); // usando o nome do arquivo como id
-                        data.forEach(membro => {
-                            const membro_div = document.createElement("div");
-                            membro_div.classList.add("membro_time");
-
-                            const imagem = document.createElement("img");
-                            imagem.src = membro.rosto;
-                            imagem.alt = membro.funcao;
-                            imagem.classList.add("rostos");
-                            
-                            const info_div = document.createElement("div");
-                            const nome_membro = document.createElement("h3");
-                            nome_membro.textContent = membro.nome;
-                            const funcao_na_equipe = document.createElement("p");
-                            funcao_na_equipe.textContent = membro.funcao;
-                            funcao_na_equipe.style.fontWeight = 'bold';
-                            const descricao = document.createElement("p");
-                            descricao.textContent = membro.descricao;
-
-                            info_div.appendChild(nome_membro);
-                            info_div.appendChild(funcao_na_equipe);
-                            info_div.appendChild(descricao);
-
-                            membro_div.appendChild(imagem);
-                            membro_div.appendChild(info_div);
-                            
-                            const a = document.createElement("a");
-                            a.classList.add("sem_sublinhar");
-                            a.href = membro.linkedin;
-                            a.target="_blanck"
-                            a.appendChild(membro_div);
-
-                            container.appendChild(a);
-                        });
-                    })
-            }
-
-            geraQuadro("presidencia.json");
-            geraQuadro("diretores.json");
-            geraQuadro("membros.json");
-        </script>
-
-    </div>
-
-</body>
-</html>
 
 
       
 
+      <ul class="pagination blog-pager">
+        
+        
+      </ul>
       
   
   
