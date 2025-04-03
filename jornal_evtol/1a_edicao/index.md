@@ -79,7 +79,7 @@ O primeiro treinamento foi o de hardware, feito com uma dinâmica que combinava 
             <li>O que são sensores inerciais? Para que servem as câmeras?</li>
             <li>O que é odometria e o que é sensor fusion?</li>
         </ul>
-        <h4 align="center">Tudo isso foi disutido nessa parte do treinamento!</h4>
+        <h4 align="center">Tudo isso foi discutido nessa parte do treinamento!</h4>
         <br>
         <div class="imagem_centrada">
             <img src="./assets/img/mexendo_nos_drones.png" alt="Novos membros mexendo nos drones.">
@@ -89,13 +89,28 @@ O primeiro treinamento foi o de hardware, feito com uma dinâmica que combinava 
 <br>
 
 <h2 style="text-align: center;">Treinamento de Software</h2>
+<div class="mexendo_drone">
+    <div>
+        <p>
+        Não só de hardware vive o bixo. Nessa aula, foi ministrado o conhecimento para melhor compreeder os bastidores de como pensa o    drone. Lá foram ministrados conceitos como:
+        </p>
+                <ul>
+                <li>Robot Operating System (ROS)</li>
+                <li>PX4-autopilot</li>
+                <li>Agente DDS</li>
+                <li>Machine Learning</li>
+                <li>Visão computacional</li>
+                </ul>
+    </div>
+    <img style="object-fit: cover; object-position: 0 -15%; width: 100%; height: auto;" src="./assets/img/aulaSoftware.jpeg">
+</div>
+<p>além disso foram apresentados também os avanços atuais da iniciativa, tanto na área de inteligência artificial quanto na de geração de datasets para treinar essas IA
+</p>
 
-Durante o treinamento de software, os ~~bixos~~ novos membros tiveram contato com a simulação do drone.
-Foram abordados:
-
-<div class="imagem_lado_a_lado">
-    <img src="./assets/img/presidente_explicando.png" alt="Presidente explicando software">
-    <img src="./assets/img/todos_no_treinamento_de_software.jpeg" alt="Foto de todos os participantes do treinamento">
+<div class="imagem_centrada">
+    <video controls width="800" width="600">
+        <source src="./assets/videos/gesture.mp4" type="video/mp4">
+    </video>
 </div>
 <br>
 
