@@ -126,6 +126,13 @@
   <div class="collapse navbar-collapse" id="main-navbar">
     <ul class="navbar-nav ml-auto">
           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Jornal eVTOL</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/jornal_evtol/1a_edicao/index">1ª edição</a>
+            </div>
+          </li>
+        
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projetos</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="/evtol-armageddon">eVTOL - Armagedon</a>
@@ -151,9 +158,14 @@
             </div>
           </li>
         
-          <li class="nav-item">
-            <a class="nav-link" href="/parceiros">Parceiros</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Parceiros</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/sponsorship">Sponsorship</a>
+                  <a class="dropdown-item" href="/parceiros">Nossos parceiros</a>
+            </div>
           </li>
+        
           <li class="nav-item">
             <a class="nav-link" href="/aboutme">Sobre Nós</a>
           </li>
@@ -192,6 +204,13 @@
     var searchjson = '[ \
        \
         { \
+          "title"    : "Processo seletivo 2025", \
+          "category" : "processo seletivo", \
+          "url"      : "/processo_seletivo_2025/", \
+          "date"     : "March 18, 2025" \
+        }, \
+       \
+        { \
           "title"    : "Conheça nossos projetos em 2025", \
           "category" : "competiçãorobóticadrones", \
           "url"      : "/conheca_nossos_projetos/", \
@@ -221,9 +240,37 @@
         }, \
        \
         { \
+          "title"    : "Equipe Atual", \
+          "category" : "page", \
+          "url"      : "/equipe_atual/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Diretorias Antigas", \
+          "category" : "page", \
+          "url"      : "/equipes_antigas/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
           "title"    : "eVTOL - Armageddon", \
           "category" : "page", \
           "url"      : "/evtol-armageddon/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Jornal eVTOL - Gestão", \
+          "category" : "jornal eVTOLdronesgestão", \
+          "url"      : "/jornal_evtol/1a_edicao/gestao/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Jornal eVTOL - Hardware", \
+          "category" : "jornal eVTOLdroneshardware", \
+          "url"      : "/jornal_evtol/1a_edicao/hardware/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -238,6 +285,27 @@
           "title"    : "eVTOL ITA", \
           "category" : "page", \
           "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Jornal eVTOL - 1ª edição", \
+          "category" : "jornal eVTOLdrones2025", \
+          "url"      : "/jornal_evtol/1a_edicao/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Parceiros", \
+          "category" : "page", \
+          "url"      : "/parceiros/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Sponsorship - ITAEx", \
+          "category" : "page", \
+          "url"      : "/sponsorship/", \
           "date"     : "January 1, 1970" \
         }, \
        \
@@ -312,7 +380,7 @@
     <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
       
 
-      <a href="#competição" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;competição&nbsp;(1)</a><a href="#drones" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;drones&nbsp;(1)</a><a href="#robótica" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;robótica&nbsp;(1)</a><div id="full-tags-list"><h2 id="competição" class="linked-section">
+      <a href="#competição" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;competição&nbsp;(1)</a><a href="#drones" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;drones&nbsp;(1)</a><a href="#processo seletivo" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;processo seletivo&nbsp;(1)</a><a href="#robótica" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;robótica&nbsp;(1)</a><div id="full-tags-list"><h2 id="competição" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;competição&nbsp;(1)
     </h2>
@@ -329,6 +397,15 @@
                 <a href="/conheca_nossos_projetos/">Conheça nossos projetos em 2025</a>
                 <div class="entry-date">
                     <time datetime="2025-02-17T00:00:00+00:00">17 de February, 2025</time>
+                </div>
+            </div></div><h2 id="processo seletivo" class="linked-section">
+        <i class="fas fa-tag" aria-hidden="true"></i>
+        &nbsp;processo seletivo&nbsp;(1)
+    </h2>
+    <div class="post-list"><div class="tag-entry">
+                <a href="/processo_seletivo_2025/">Processo seletivo 2025</a>
+                <div class="entry-date">
+                    <time datetime="2025-03-18T00:00:00+00:00">18 de March, 2025</time>
                 </div>
             </div></div><h2 id="robótica" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>

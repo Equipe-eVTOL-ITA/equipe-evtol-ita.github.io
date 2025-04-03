@@ -1,0 +1,149 @@
+[
+    {
+        "nome": "Angelo Marconi Pavan",
+        "funcao": "Membro",
+        "descricao": "Aluno do primeiro ano de engenharia e que se encontra em um estado de alegria frente ao atraente ignoto da robótica e visão computacional.",
+        "rosto": "/assets/img/rostos/pavan.jpeg",
+        "linkedin": "https://www.linkedin.com/in/%C3%A2ngelo-pavan-691420161/"
+    },
+    {
+        "nome": "Gabriel Juliatti Costalonga",
+        "funcao": "Membro",
+        "descricao": "Conhecido na comunidade iteana como Libras, tenho 22 anos e sou natural de Vila Velha - ES. Com espírito leve e aventureiro, estou sempre disposto a experimentar coisas novas e buscar desenvolver novas habilidades. Nos tempos livres, tomar uma gelada é sempre a melhor opção!",
+        "rosto": "/assets/img/rostos/juliatti.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Diego de Aquino Linhares",
+        "funcao": "Membro",
+        "descricao": "Sou o CLT da 29, apaixonado pela ideia de uma aeronave elétrica.",
+        "rosto": "/assets/img/rostos/linhares.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "João Pedro Andrade de Carvalho",
+        "funcao": "Membro",
+        "descricao": "Entusiasta de aeronáutica, robótica, música e literatura. Um tanto tímido, porém muito receptivo a novas amizades.",
+        "rosto": "/assets/img/rostos/carvalho.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Otávio Alves Batista",
+        "funcao": "Membro",
+        "descricao": "Recifense, amante de café e da engenharia.",
+        "rosto": "/assets/img/rostos/otavio.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Kaehry Alves Marczaokoski",
+        "funcao": "Membro",
+        "descricao": "Eu sou o Kaehry (mais conhecido como Tinder) da T29, sou de Curitiba e estou vivendo esse sonho q é cursar o ITA; fazendo o que eu gosto num ambiente excepcional!!!",
+        "rosto": "/assets/img/rostos/kaehry.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "André do Prado e Assis",
+        "funcao": "Membro",
+        "descricao": "19 anos, aluno do ita, nascido em Salvador e morador de São João da Boa Vista, trigêmeos todos cursando engenharia",
+        "rosto": "/assets/img/rostos/andre.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Luan Stohr Gid",
+        "funcao": "Membro",
+        "descricao": "Sou uma pessoa que gosta muito de criar coisas e conversar com os outros. Também gosto muito de aprender de forma prática, principalmente se for um conteúdo desafiador. Além, meu principal hobby é a calistenia.",
+        "rosto": "/assets/img/rostos/stohr.jpeg",
+        "linkedin": "https://www.linkedin.com/in/luan-stohr-gid-486b0220b?originalSubdomain=br"
+    },
+    {
+        "nome": "Paulo Sergio Bezerra Freitas Gouveia",
+        "funcao": "Membro",
+        "descricao": "Sou um aluno do ITA com muito entusiasmo por drones e suas aplicações, em especial drones florestais.",
+        "rosto": "/assets/img/rostos/paulos.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Adriano Regis Cavalcante Lima Filho",
+        "funcao": "Membro",
+        "descricao": "Vibrante de exatas pronto pra ajudar a equipe.",
+        "rosto": "/assets/img/rostos/adriano.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Murilo Hiroyuki Matsura",
+        "funcao": "Membro",
+        "descricao": "Meu nome é Murilo e eu sempre quis ser engenheiro, desde que me conheço por gente. Sou um entusiasta da aviação e quero trabalhar nessa área quando me formar no ITA.",
+        "rosto": "/assets/img/rostos/matsura.png",
+        "linkedin": "https://www.linkedin.com/in/murilo-matsura-8165ab69/?originalSubdomain=br"
+    },
+    {
+        "nome": "Vitor Manoel",
+        "funcao": "Membro",
+        "descricao": "Tenho 21 anos e sou do interior de Minas. Fiz 4 anos de cursinho e agora faço parte da T29.",
+        "rosto": "/assets/img/rostos/vitor.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Kaíque Jun Inafuku",
+        "funcao": "Membro",
+        "descricao": "Tenho 20 anos, nasci em São José dos Campos mas passei boa parte da minha vida em Caraguatatuba. Meu hobby é a música (trombone) e quero usar minha paixão por exatas pra melhorar as condições de vida para todos.",
+        "rosto": "/assets/img/rostos/jun.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Gabriel Rocha Chaves",
+        "funcao": "Membro",
+        "descricao": "Aluno de engenharia com vocação e gosto para eletrônica.",
+        "rosto": "/assets/img/rostos/chaves.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Wallace de Oliveira Pereira",
+        "funcao": "Membro",
+        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
+        "rosto": "/assets/img/rostos/wallace.png",
+        "linkedin": "https://www.linkedin.com/in/wallace-pereira-4230ab249/"
+    },
+    {
+        "nome": "Ezequiel Honomann",
+        "funcao": "Membro",
+        "descricao": "Quase sempre gostei de coisas que voam, sou vibrão do ramo aeroespacial e pretendo atuar no desenvolvimento dessa área.",
+        "rosto": "/assets/img/rostos/ezequiel.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Clóvis Tabor de Aguiar",
+        "funcao": "Membro",
+        "descricao": "Sou vibrão da arte, da literatura e da gastronomia, curto animes e amo cantar.",
+        "rosto": "/assets/img/rostos/clovis.png",
+        "linkedin": "https://www.linkedin.com/in/clovis-tabor-de-aguiar-122057358/"
+    },
+    {
+        "nome": "Luis Gustavo Gomes Maia",
+        "funcao": "Membro",
+        "descricao": "Membro da divisão de Navegação, estou trabalhando na evtol com criação de conjunto de dados sintético para treinamento de CNNs para detecção de alvos.",
+        "rosto": "/assets/img/rostos/rivaldo.jpeg",
+        "linkedin": "http://www.linkedin.com/in/luisggmaia"
+    },
+    {
+        "nome": "Miqueias Oliveira",
+        "funcao": "Membro",
+        "descricao": "Cearense vibrão de aviação e tecnologia.",
+        "rosto": "/assets/img/rostos/miqueias.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Henrique Temponi Leite Cardoso",
+        "funcao": "Membro",
+        "descricao": "Sou mineiro e gosto de drones!",
+        "rosto": "/assets/img/rostos/temponi.jpg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Hugo Horácio Mota Pereira",
+        "funcao": "Membro",
+        "descricao": "Natural de Aracaju, Sergipe. 20 anos.",
+        "rosto": "/assets/img/rostos/hugougo.png",
+        "linkedin": ""
+    }
+]

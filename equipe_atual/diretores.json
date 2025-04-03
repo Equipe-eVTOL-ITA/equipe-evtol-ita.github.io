@@ -1,0 +1,37 @@
+[
+    {
+        "nome": "Rafael Pimenta",
+        "funcao": "Gerente de Business",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/pimenta.jpg",
+        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+    },
+    {
+        "nome": "Diogo de Paula",
+        "funcao": "Diretor de Navegação",
+        "descricao": "Busco aprender e me dedicar no trabalho da melhor maneira que conseguir.",
+        "rosto": "/assets/img/rostos/diogo.png",
+        "linkedin": "https://www.linkedin.com/in/diogo-de-paula-t28/?originalSubdomain=br"
+    },
+    {
+        "nome": "Leonardo",
+        "funcao": "Diretor da Mecânica",
+        "descricao": "Sempre procuro adiquirir maus conhecimento e me divertir no processo.",
+        "rosto": "/assets/img/rostos/leonardo.jpeg",
+        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+    },
+    {
+        "nome": "Rogério",
+        "funcao": "Supervisor de Hardware",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/rogerio.jpg",
+        "linkedin": "https://www.linkedin.com/in/rafaelpmdpaixao/"
+    },
+    {
+        "nome": "Lucas",
+        "funcao": "Diretor da Eletrônica",
+        "descricao": "Conhecido como Goiano, gosto muito de eletrônica e tudo que envolve elétrica, sempre a procura de novos desafios.",
+        "rosto": "/assets/img/rostos/pimentel.jpg",
+        "linkedin": "https://www.linkedin.com/in/lucas-pimentel-araujo/?locale=en_US"
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "nome": "Vinicius Ceccon",
+        "funcao": "Presidente",
+        "descricao": "Aluno de Eng. Aeronáutica interessado em drones no Agro e no Monitoramento Ambiental",
+        "rosto": "/assets/img/rostos/ceccon.jpeg",
+        "linkedin": "https://www.linkedin.com/in/vinicius-ceccon-724855270/"
+    },
+    {
+        "nome": "Yago Ximenes",
+        "funcao": "Vice Presidente",
+        "descricao": "Nasci em Fortaleza/CE e cresci em Belém/PA. Tenho grande interesse por tecnologias, principalmente nos ramos aeroespacial e da robótica, além de gostar de desafios.",
+        "rosto": "/assets/img/rostos/ximenes.png",
+        "linkedin": "https://www.linkedin.com/in/yago-ximenes/"
+    }
+]

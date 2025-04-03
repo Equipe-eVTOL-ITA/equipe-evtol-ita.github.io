@@ -1,0 +1,23 @@
+[
+    {
+        "nome": "Motiva",
+        "funcao": "Presidente",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/wk/logo_arduino.png",
+        "linkedin": ""
+    },
+    {
+        "nome": "Timão",
+        "funcao": "Membro",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/timao.jpeg",
+        "linkedin": ""
+    },
+    {
+        "nome": "Pedal",
+        "funcao": "Membro",
+        "descricao": "É a Dronezada, não tem jeito!",
+        "rosto": "/assets/img/rostos/pedal.jpeg",
+        "linkedin": ""
+    }
+]
