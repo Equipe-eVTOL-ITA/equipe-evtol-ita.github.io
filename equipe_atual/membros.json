@@ -1,5 +1,19 @@
 [
     {
+        "nome": "Luis Gustavo Gomes Maia",
+        "funcao": "Membro",
+        "descricao": "Membro da divisão de Navegação, estou trabalhando na evtol com criação de conjunto de dados sintético para treinamento de CNNs para detecção de alvos.",
+        "rosto": "/assets/img/rostos/rivaldo.jpeg",
+        "linkedin": "http://www.linkedin.com/in/luisggmaia"
+    },
+    {
+        "nome": "Wallace de Oliveira Pereira",
+        "funcao": "Membro",
+        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
+        "rosto": "/assets/img/rostos/wallace.png",
+        "linkedin": "https://www.linkedin.com/in/wallace-pereira-4230ab249/"
+    },
+    {
         "nome": "Angelo Marconi Pavan",
         "funcao": "Membro",
         "descricao": "Aluno do primeiro ano de engenharia e que se encontra em um estado de alegria frente ao atraente ignoto da robótica e visão computacional.",
@@ -98,13 +112,6 @@
         "linkedin": ""
     },
     {
-        "nome": "Wallace de Oliveira Pereira",
-        "funcao": "Membro",
-        "descricao": "Diretamente do interior do Espírito Santo para estudar eletrônica em São José dos Campos.",
-        "rosto": "/assets/img/rostos/wallace.png",
-        "linkedin": "https://www.linkedin.com/in/wallace-pereira-4230ab249/"
-    },
-    {
         "nome": "Ezequiel Honomann",
         "funcao": "Membro",
         "descricao": "Quase sempre gostei de coisas que voam, sou vibrão do ramo aeroespacial e pretendo atuar no desenvolvimento dessa área.",
@@ -117,13 +124,6 @@
         "descricao": "Sou vibrão da arte, da literatura e da gastronomia, curto animes e amo cantar.",
         "rosto": "/assets/img/rostos/clovis.png",
         "linkedin": "https://www.linkedin.com/in/clovis-tabor-de-aguiar-122057358/"
-    },
-    {
-        "nome": "Luis Gustavo Gomes Maia",
-        "funcao": "Membro",
-        "descricao": "Membro da divisão de Navegação, estou trabalhando na evtol com criação de conjunto de dados sintético para treinamento de CNNs para detecção de alvos.",
-        "rosto": "/assets/img/rostos/rivaldo.jpeg",
-        "linkedin": "http://www.linkedin.com/in/luisggmaia"
     },
     {
         "nome": "Miqueias Oliveira",
