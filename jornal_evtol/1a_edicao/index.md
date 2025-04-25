@@ -96,6 +96,23 @@ tags: [jornal eVTOL, drones, 2025]
         height: auto; /* Mantém a proporção */
     }
 
+    @media (max-width: 768px) {
+        .titulo {
+            font-size: 2em; /* Reduz o tamanho do título em telas menores */
+        }
+
+        .texto {
+            font-size: 1em; /* Reduz o tamanho do texto em telas menores */
+        }
+
+        .imagem_lado_a_lado img, .imagem_lado_a_lado video {
+            max-width: 100%; /* Imagens ocupam toda a largura disponível */
+        }
+
+        .imagem_pequena {
+            max-width: 90%; /* Ajusta o tamanho da imagem pequena */
+        }
+
 </style>
 
 <div class="container">
